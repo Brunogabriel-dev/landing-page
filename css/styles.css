@@ -20,5 +20,26 @@
  background-position: center;
  background-size:cover;
  height: 85vh; 
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ color: var(--text-color);
+}
 
+#disclaimer h2,
+#disclaimer .event-date {
+  color: var(--primary);
+}
+
+#disclamer h2{
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+#disclaimer .about-event {
+  font-size: 2em;
+  text-transform: uppercase;
+  max-width: 350px;
+  font-weight: bold;
+  margin-bottom: 1em;
 }
